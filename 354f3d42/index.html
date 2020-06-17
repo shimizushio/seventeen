@@ -17,7 +17,7 @@
   <meta name="description" content="旧标题：给将死的世界的17重奏&lt;br /&gt;一个崩坏的世界的故事。">
   <meta name="author" content="Shimizu Shio">
   <meta name="keywords" content="">
-  <title>角色介绍：清水汐 - 17Melodies - test11</title>
+  <title>角色介绍：清水汐 - 17Melodies - test21</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -29,6 +29,8 @@
     <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
   
 
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/gitalk/1.6.2/gitalk.css" />
   
 
 
@@ -218,6 +220,29 @@
               <div class="comments" id="comments">
                 
                 
+  <div id="gitalk-container"></div>
+  <script type="text/javascript">
+    function loadGitalk(){
+      addScript('https://cdn.staticfile.org/gitalk/1.6.2/gitalk.min.js', function () {
+        var gitalk = new Gitalk({
+          clientID: '3e02ca1dce8162c0eb6f',
+          clientSecret: 'ae836525faecc923fcdb9e068c028484bddccda2',
+          repo: 'seventeen',
+          owner: 'shimizushio',
+          admin: 'shimizushio',
+          id: '4ab640cd724ff3cb98bd5a57dab66a70',
+          language: 'zh-CN',
+          perPage: 15,
+          pagerDirection: 'last',
+          createIssueManually: 'true',
+          distractionFreeMode: 'false'
+        });
+        gitalk.render('gitalk-container');
+      });
+    }
+    createObserver(loadGitalk, 'gitalk-container');
+  </script>
+
 
               </div>
             
@@ -280,11 +305,10 @@
   <footer class="mt-5">
   <div class="text-center py-3">
     <div>
-      由 <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
       <i class="iconfont icon-love"></i>
       <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
         <span>Fluid</span></a>
-      爆炎电击
     </div>
     
 
