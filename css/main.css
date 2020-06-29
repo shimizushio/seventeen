@@ -1507,3 +1507,6 @@ h6::before {
     margin-left: 1rem;
   }
 }
+.vsys {
+  display: none !important;
+}
